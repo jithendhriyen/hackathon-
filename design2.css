@@ -278,6 +278,18 @@ ul li.text6{
 
 }
 
+.textr78{
+  padding-top: 20px;
+  padding: 0 10px;
+  font-size:36px;
+  padding-left:20px;
+  font-family: system-ui;
+  padding-right: 20px;
+  padding-left: 40px;
+  color: white;
+
+}
+
 
 
 .text25{
@@ -474,10 +486,35 @@ ul li.text{
   background: white;
 }
 
-ul li.city{
-  padding: 0 100px;
-  text-decoration: none;
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
 
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.explore-button {
+    display: inline-block;
+    background-color: #31569f;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #274b86;
 }
 
 @media only screen and (max-width: 600px) {
@@ -785,3 +822,4 @@ ul li.city{
 
   }
 }
+
